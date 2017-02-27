@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant|Roboto|Lobster|Open+Sans+Condensed:300');
+.chosen-cards .card img {
+  width: 130px;
+}
+.chosen-cards .card {
+  width:130px;
+  margin: auto;
+}
+.chosen-cards {
+  text-shadow: 1px 1px 1px darkgrey;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+#deck-flipped .title {
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: absolute;
+  width: 180px;
+  border: 3px solid #666;
+  padding: 20px;
+  text-shadow: 1px 1px 1px #555;
+}
+#deck-flipped .item img {
+  width: 450px;
+}
+#deck-flipped .item {
+  text-align: center;
+}
+body {
+  background-image:url(img/bg.jpg);
+}
+.card-details {
+  font-family: 'Roboto', sans-serif;
+  z-index:9999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(228, 230, 212);
+}
+.card-details .traditional-meaning {
+  padding: 12px;
+  margin: 0 20px;
+}
+.card-details h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+}
+.card-details .image-container img {
+  float: right;
+  width: 25%;
+}
+.card-details .image-container {
+  position: relative;
+}
+.card-details h2, .card-details h3 {
+  text-align: center;
+}
+.card-details .text-container {
+  margin: 35px 0;
+  padding: 0 50px;
+  white-space: pre-wrap;
+  line-height: 150%;
+  font-size: 1em;
+}
+.card-details .tip {
+  position: absolute;
+  top:0;
+  right:0;
+  padding: 0 20px;
+  color: goldenrod;
+  text-shadow: 1px 1px 1px #fff;
+}
+.clearfix {
+  clear: both;
+}
